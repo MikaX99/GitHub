@@ -1153,14 +1153,14 @@ footer {
 }
 
 .footer-email a {
-  color: #333; /* Warna teks email */
+  color: #fff; /* Warna teks email */
   text-decoration: none; /* Hilangkan garis bawah */
   font-size: 16px; /* Ukuran font untuk email */
 }
 
 .footer-copyright {
   margin-top: 10px; /* Jarak antar email dan copyright */
-  color: #666; /* Warna teks copyright */
+  color: #fff; /* Warna teks copyright */
   font-size: 14px; /* Ukuran font untuk copyright */
 }
 
