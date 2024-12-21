@@ -1111,7 +1111,7 @@ Footer Style
 --------------------------------------------- 
 */
 
-footer {
+/* footer {
   margin-top: 150px;
   background-color: #0071f8;
   background-repeat: no-repeat;
@@ -1138,7 +1138,7 @@ footer p a {
 
 footer p a:hover {
   opacity: 0.75;
-}
+} */
 
 
 /* 
@@ -1670,4 +1670,28 @@ body {
 
 @media (max-width: 1200px) {
   
+}
+
+footer {
+  background-color: #f9f9f9; /* Warna latar belakang footer */
+  padding: 20px 0; /* Jarak vertikal atas dan bawah */
+  text-align: center; /* Elemen berada di tengah */
+  font-family: Arial, sans-serif; /* Font yang bersih */
+}
+
+.footer-content {
+  max-width: 600px; /* Batas lebar teks agar tetap proporsional */
+  margin: 0 auto; /* Centering kontainer */
+}
+
+.footer-email a {
+  color: #333; /* Warna teks email */
+  text-decoration: none; /* Hilangkan garis bawah */
+  font-size: 16px; /* Ukuran font untuk email */
+}
+
+.footer-copyright {
+  margin-top: 10px; /* Jarak antar email dan copyright */
+  color: #666; /* Warna teks copyright */
+  font-size: 14px; /* Ukuran font untuk copyright */
 }
